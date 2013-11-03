@@ -1,0 +1,685 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\work\arm\USB_Programmer\USB_PROG.uvproj
+Project File Date:  11/03/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(87): error:  #20: identifier "AckReady" is undefined
+SRC\chips\cm2970.c(107): warning:  #223-D: function "delay" declared implicitly
+SRC\chips\cm2970.c(110): error:  #20: identifier "AckReady" is undefined
+SRC\chips\cm2970.c(128): error:  #159: declaration is incompatible with previous "delay" (declared at line 107)
+SRC\chips\cm2970.c(206): warning:  #177-D: variable "i" was declared but never referenced
+SRC\chips\cm2970.c(128): warning:  #177-D: function "delay" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(202): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=7992 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(202): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=7992 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(202): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=7992 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=7992 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=7992 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'USB_PROG'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling burn.c...
+compiling chip.c...
+compiling i2c_sim.c...
+compiling init.c...
+compiling main.c...
+compiling spi_sim.c...
+SRC\spi_sim.c(165): warning:  #1-D: last line of file ends without a newline
+compiling stm32f10x_it.c...
+compiling uart.c...
+compiling utils.c...
+compiling cm2970.c...
+SRC\chips\cm2970.c(202): warning:  #177-D: variable "i" was declared but never referenced
+compiling m602.c...
+compiling m603.c...
+linking...
+Program Size: Code=7992 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(217): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8060 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(206): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8008 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(138): warning:  #550-D: variable "i" was set but never used
+SRC\chips\cm2970.c(210): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8008 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(139): warning:  #550-D: variable "i" was set but never used
+SRC\chips\cm2970.c(211): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8008 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(209): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8008 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.782V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling i2c_sim.c...
+compiling cm2970.c...
+SRC\chips\cm2970.c(203): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=7984 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+linking...
+Program Size: Code=7984 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(208): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8000 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(210): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8004 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(210): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8004 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling i2c_sim.c...
+compiling cm2970.c...
+SRC\chips\cm2970.c(210): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8012 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling cm2970.c...
+SRC\chips\cm2970.c(210): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=8012 RO-data=336 RW-data=564 ZI-data=2180  
+FromELF: creating hex file...
+".\OBJS\USB_PROG.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\work\\arm\\USB_Programmer\\OBJS\\USB_PROG.axf" 
+Set JLink Project File to "D:\work\arm\USB_Programmer\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72 , compiled Jun 12 2013 15:47:08
+Firmware: J-Link ARM V7 compiled Jun 20 2012 19:45:53
+Hardware: V7.00
+S/N : 19087980 
+Feature(s) : RDI, FlashDL, FlashBP, JFlash, GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 2.776V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
