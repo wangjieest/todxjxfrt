@@ -1,5 +1,0 @@
--c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\SRC -I.\SRC\chips -I.\SRC\CMSIS\CoreSupport -I.\SRC\CMSIS\DeviceSupport -I.\SRC\Periph_Driver\inc 
--I "D:\Program Files\keil_MDK\ARM\RV31\INC" 
--I "D:\Program Files\keil_MDK\ARM\CMSIS\Include" 
--I "D:\Program Files\keil_MDK\ARM\Inc\ST\STM32F10x" 
--o ".\OBJS\m603.o" --omf_browse ".\OBJS\m603.crf" --depend ".\OBJS\m603.d" "SRC\chips\m603.c"
